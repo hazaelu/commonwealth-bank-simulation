@@ -1,0 +1,16 @@
+/* Requisito 3: Tipografía base global */
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Requisito 3: Personalización del título principal */
+h1 {
+  color: Blue;
+  font-size: 36px;
+}
+
+/* Requisito 3: Personalización del texto del cuerpo */
+p {
+  font-size: 18px;
+  color: Gray;
+}
