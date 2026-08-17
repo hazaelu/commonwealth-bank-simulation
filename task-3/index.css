@@ -1,0 +1,89 @@
+/* 1. CONFIGURACIÓN GLOBAL DE LA MARCA (Requisitos CBA) */
+* {
+  /* Requisito: Una única fuente sans-serif limpia exigida */
+  font-family: 'Lucida Sans', 'Gill Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  /* Requisito: Color Neutro Negro oficial (#1E1E1E) */
+  background-color: #1E1E1E;
+  /* Requisito: Texto blanco al estar sobre un fondo negro */
+  color: #FFFFFF;
+  margin: 0;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Contenedor estructural para dar estética de aplicación bancaria premium */
+.bank-container {
+  max-width: 900px;
+  width: 100%;
+  border: 1px solid #BEBEB9; /* Requisito: Color gris secundario */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Banner superior con el color oficial del banco */
+.brand-bar {
+  /* Requisito: Uso obligatorio de color primario (Primary yellow: #FFCC00) */
+  background-color: #FFCC00;
+  color: #1E1E1E; /* Requisito: Texto negro sobre fondo claro */
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #BEBEB9;
+}
+
+/* Sección interna del contenido */
+.content-wrapper {
+  padding: 40px;
+  background-color: #1E1E1E;
+}
+
+/* 2. TIPOGRAFÍAS Y TAMAÑOS STRICTOS (Requisitos CBA) */
+
+h1 {
+  /* Requisito: Texto de título exactamente de 70pt */
+  font-size: 70pt;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 0 30px 0;
+  /* Creatividad permitida: Degradado sutil con el amarillo oficial */
+  color: #FFCC00; 
+}
+
+h2 {
+  /* Requisito: Texto de subtítulo exactamente de 38pt */
+  font-size: 38pt;
+  font-weight: 700;
+  margin: 45px 0 15px 0;
+  color: #FFCC00;
+  border-bottom: 2px solid #BEBEB9; /* Línea divisoria en gris neutro */
+  padding-bottom: 10px;
+}
+
+p {
+  /* Requisito: Texto del cuerpo exactamente de 18pt */
+  font-size: 18pt;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  /* Requisito: Blanco por estar sobre fondo negro */
+  color: #FFFFFF; 
+}
+
+/* Creatividad: Caja destacada para el párrafo introductorio usando gris claro */
+.intro-text {
+  background-color: #EBEBEB; /* Requisito: Color Neutro Light Gray (#EBEBEB) */
+  color: #1E1E1E; /* Requisito: Debe ser negro al estar sobre fondo claro */
+  padding: 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
